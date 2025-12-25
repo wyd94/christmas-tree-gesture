@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #0a0a2a;
+  color: white;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+  height: 100vh;
+}
+#loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.2em;
+  background: rgba(0,0,0,0.7);
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 100;
+}
+#hint {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.8;
+}
+#webgl-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
